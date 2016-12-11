@@ -1,0 +1,103 @@
+#+TITLE: Presentation On Git 
+#+DESCRIPTION: An introductory presentation on basic usage of git.
+#+SUBTITLE: (The stupid content tracker)
+#+FAVICON: ./github.png
+#+ICON: ./git.png
+#+HASHTAG: github.com/neymarsabin
+#+OPTIONS: num:nil toc:nil H:1
+#+USE_PRETTIFY: true
+#+COMPANY: Sabin Nepal (Banepa NIST)
+
+* 
+  1) What are version control systems?
+  2) Why use vcs?
+  3) Intro to Git
+  4) Why Git?
+  5) Git shell and Github demo
+
+
+
+* Final DOC
+  
+  #+BEGIN_CENTER
+  #+ATTR_HTML: :width 450px :height 450px
+  [[file:images/final-doc.gif]]
+  #+END_CENTER
+  
+
+
+*  
+  
+  #+BEGIN_CENTER
+  #+ATTR_HTML:
+  [[file:images/project-finale.jpg]]
+  #+END_CENTER
+  
+  *After 2-3 months you will forget where your files are.*
+
+  #+BEGIN_CENTER
+  #+ATTR_HTML: :width 300px :height 300px
+  [[file:images/i-forgot.gif]]
+  #+END_CENTER
+
+
+
+
+
+* 
+
+  :PROPERTIES:
+  :ARTICLE: larger
+  :END:
+
+
+  #+BEGIN_CENTER
+  *It's because we didn't know about version control systems.*
+  #+END_CENTER
+
+
+* Version Control Systems 
+  #+ATTR_HTML: :class build fade
+  - Avoid You From Creating Multiple Backups Of Your Files
+  - Multiple People Can Work On Same File
+  - Tracks The Changes Of The Files
+  - Switch Older Or Newer Versions Easily
+
+*   
+
+  #+BEGIN_CENTER
+  #+ATTR_HTML: :width 700px :height 500px
+  [[file:./images/git-vcs.png]]
+  #+END_CENTER
+
+
+* What is GIT?
+  :PROPERTIES:
+  :ARTICLE: large
+  :END:
+  Distributed Version Control System ( DVCS  )
+  
+  #+BEGIN_CENTER
+  #+ATTR_HTML: :width 400px :height 350px
+  [[file:./distributed-vc.png]]
+  #+END_CENTER
+
+* Installation 
+  
+  For unix based systems:
+  #+BEGIN_SRC bash
+  #For dpkg based linux distros
+  sudo apt install git-core
+  #For pacman based linux
+  sudo pacman -S git 
+  #For rpm based 
+  sudo yum install git 
+  #for Mac OS
+  brew install git
+  #+END_SRC
+  For Windows Based Systems:
+  #+BEGIN_EXAMPLE
+  www.git-scm.com/downloads
+  #+END_EXAMPLE
+
+* Demo 
