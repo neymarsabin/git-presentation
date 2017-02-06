@@ -101,3 +101,9 @@
   #+END_EXAMPLE
 
 * Demo 
+
+* Ideas and References from: 
+	- https://git-scm.com/
+	- Foss-np: https://www.youtube.com/watch?v=6ymORMOYvlM
+	
+	
